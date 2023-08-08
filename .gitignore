@@ -1,0 +1,42 @@
+HELP.md
+target/
+**/.mvn/wrapper/
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+/navida-adapter-soe/src/main/resources/application-local.yml
+charts/navida-adapter-soe/Chart.lock
+charts/navida-adapter-soe/charts/*.tgz
+/charts/navida-adapter-syncer/charts/
+/charts/navida-adapter-syncer/Chart.lock
+/charts/navida-adapter-syncer/charts/*.tgz
+/navida-adapter-soe/src/main/resources/local_ca.jks
+/navida-adapter-syncer/src/main/resources/application-local.yaml
+/charts/occonnect-navida-bonus-soe/Chart.lock
